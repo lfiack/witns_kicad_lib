@@ -1,11 +1,11 @@
 # WITNS Kicad Library
 
-## Add to your project
+## Add to your project
 ```bash
 git submodule add git@github.com:lfiack/witns_kicad_lib.git
 ```
 
-## Don't forget to document your project
+## Don't forget to document your project
 Add the following lines to your project :
 ````
 This project uses a submodule for the KiCAD library. To get it properly, use the `--recursive` option when cloning the repo :
