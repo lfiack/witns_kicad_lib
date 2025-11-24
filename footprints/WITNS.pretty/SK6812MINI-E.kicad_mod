@@ -1,0 +1,332 @@
+(footprint "SK6812MINI-E"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED")
+	(tags "Neopixel, SK6812")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "71fa5d1b-fdb6-4959-b002-6bcd01c9b83a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SK6812MINI-E"
+		(at 0 3.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3086c57b-e042-4aca-a400-4811e563c0e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54867b88-b13d-41f3-b9d7-fdadcd05812a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b06a946b-b9fd-476e-b672-bc8726b70246")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part Number" "C5149201"
+		(at 0 4.6 0)
+		(layer "F.Fab")
+		(uuid "bd2160cc-21be-49cf-8138-ffdc456fa98a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.1 -2.1)
+		(end -2.1 -1.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00625386-20d4-4fd4-8e49-0987a52894ab")
+	)
+	(fp_line
+		(start -2.1 -2.1)
+		(end 2.1 -2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cdd9cf87-9fb8-4635-9f0a-cd9646067742")
+	)
+	(fp_line
+		(start -2.1 -0.2)
+		(end -2.1 0.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92b63673-8799-4072-b3b4-b00e0ab921cc")
+	)
+	(fp_line
+		(start -2.1 2.1)
+		(end -2.1 1.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62ffc767-f963-44bc-9b5f-ca221d65eb63")
+	)
+	(fp_line
+		(start -2.1 2.1)
+		(end 2.1 2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1a6c287-7b8d-4cf5-948d-3e1893a5de2f")
+	)
+	(fp_line
+		(start 2.1 -2.1)
+		(end 2.1 -1.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3cfb00fa-968c-498a-80d0-bcc82c9c8647")
+	)
+	(fp_line
+		(start 2.1 -0.2)
+		(end 2.1 0.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fbb13ee3-3ecc-4750-8898-440c5a3fd93a")
+	)
+	(fp_line
+		(start 2.1 2.1)
+		(end 2.1 1.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f4c1938-2e71-4c89-a417-fac9a29ce892")
+	)
+	(fp_poly
+		(pts
+			(xy -2.1 1.5) (xy -1.5 2.1) (xy -2.1 2.1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ab56ace0-4390-4a00-a78e-c9b225dbfba5")
+	)
+	(fp_poly
+		(pts
+			(xy 3 -1.4) (xy 2.66 -1.87) (xy 3.34 -1.87)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "6c448f76-acae-4ad4-9a76-2751b6173a8f")
+	)
+	(fp_rect
+		(start -1.6 -1.4)
+		(end 1.6 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "1f03f5b2-3934-4697-8c13-61fee086db88")
+	)
+	(fp_line
+		(start -1.8 1.3)
+		(end -1.8 -1.300001)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fc8b8a2b-3fa1-4b44-84bd-cf1e907a415e")
+	)
+	(fp_line
+		(start -1.400001 -1.7)
+		(end 1.4 -1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3acd1684-8593-41e7-91f2-84edbe524c71")
+	)
+	(fp_line
+		(start 1.4 1.7)
+		(end -1.4 1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7105788d-da7c-424d-ade4-d5bf1e097f33")
+	)
+	(fp_line
+		(start 1.8 -1.3)
+		(end 1.8 1.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "24f84ee9-ca6d-4735-bf6d-6ab43fb8b5a6")
+	)
+	(fp_arc
+		(start -1.8 -1.3)
+		(mid -1.682843 -1.582843)
+		(end -1.4 -1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6fe1d927-ed3a-493a-ac19-9638aec98e5f")
+	)
+	(fp_arc
+		(start -1.4 1.7)
+		(mid -1.682843 1.582843)
+		(end -1.8 1.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "256516a9-460e-47ca-bd35-33b35ef41a64")
+	)
+	(fp_arc
+		(start 1.4 -1.7)
+		(mid 1.682843 -1.582843)
+		(end 1.8 -1.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "05302941-db26-484d-a5f2-787f5eba6791")
+	)
+	(fp_arc
+		(start 1.8 1.3)
+		(mid 1.682843 1.582843)
+		(end 1.4 1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "31caca22-4f00-4493-b8a4-292bd8a5942b")
+	)
+	(fp_rect
+		(start -4 -2.2)
+		(end 4 2.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4632b225-f52f-4f50-9518-dcc5067b80aa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f0f3ff11-416c-4572-920e-2da86fa75973")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 2.9 -0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "955d443d-d34e-43ea-aa38-a3038cf077d0")
+	)
+	(pad "2" smd roundrect
+		(at 2.9 0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "70a0e36b-cac1-4bf9-9a2f-544fe927d145")
+	)
+	(pad "3" smd roundrect
+		(at -2.9 0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "3b0cdda6-465f-4e75-9d8b-6b16e4a19d86")
+	)
+	(pad "4" smd roundrect
+		(at -2.9 -0.75)
+		(size 1.8 0.82)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "962912e4-1c42-4c3e-b103-634d622f366b")
+	)
+	(embedded_fonts no)
+	(model "/home/laurentf/Documents/git/witns_kicad_lib/footprints/3d/LED_SK6812MINI-E.step"
+		(offset
+			(xyz 0 5.075 -1.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+)
