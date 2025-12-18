@@ -384,7 +384,7 @@
 		(at -2.54 -5.08)
 		(size 3 3)
 		(drill 3)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "e6dec2b9-8e5b-428d-aa3c-c5c56a52e3e7")
 	)
 	(pad "" np_thru_hole circle
@@ -398,7 +398,7 @@
 		(at 3.81 -2.54)
 		(size 3 3)
 		(drill 3)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "5b9a9cce-bb3d-4dd1-b690-7d97c74c3a84")
 	)
 	(pad "" np_thru_hole circle
@@ -423,15 +423,15 @@
 		(uuid "7941da3c-6993-4537-a7cc-38eda2077a8c")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+	(model "/home/laurentf/Documents/git/witns_kicad_lib/footprints/3d/SW_Cherry_MX_1.00u_PCB.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 -7)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -180 90)
 		)
 	)
 	(model "/home/laurentf/Documents/git/witns_kicad_lib/footprints/3d/Kaihl CPG151101S11.step"
